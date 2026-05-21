@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UKK AUKK</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="assest2/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top bg-primary">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#beranda">
+                UKK AUKK
+            </a>
+
+            <!--Button Hamburger-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Bagian Menu-->
+             <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link text-white" href="index.html">Beranda</a>
+                    <a class="nav-link text-white" href="index.html">Tentang</a>
+                    <a class="nav-link text-white" href="index.html">Daftar Sertifikasi</a>
+                    <a class="nav-link text-white" href="index.html">Kontak</a>
+                    <a class="nav-link text-white" href="login.html">Login</a>
+                </div>
+             </div>
+       </div>
+    </nav>  
+    
+    <div class="container-fluid d-flex justify-content-center align-items-center py-5">
+        <div class="col-md-4">
+            <div class="login-card p-4 shadow">
+                <h3 style="color:#0022BC">Log In</h3>
+
+                <!--untuk logo-->
+                <div class="d-flex justify-content-center mb-3">
+                <img src="assest2/logo.png" class="rounded-circle logo-img" alt="logo">
+                </div>
+                <form>
+                   <div class="mb-3">
+                    <input type="email" id="email" class="form-control" placeholder="email">
+                   </div>
+
+                   <div class="mb-3">
+                    <input type="password" id="password" class="form-control" placeholder="Password">
+                   </div>
+
+                    <div class="d-flex justify-content-center">
+                       <button type="button" class="btn btn-secondary" onclick="login()">Login</button>
+                    </div>
+
+                    <p>
+                        Belum punya akun? <a href="registrasi.html">Register</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<footer class="bg-primary text-white py-4">
+    <div class="container text-center">
+        <p class="mb-1">&copy; Techno Preneur</p>
+        <p class="mb-0">SMK Dinamika Pembangunan 2 Jakarta</p>
+        </div>`
+</footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/login.js"></script>
+
+</body>
+</html>

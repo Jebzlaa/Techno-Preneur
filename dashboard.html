@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UKK AUKK</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assest2/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top bg-primary">
+        <div class="container">
+            <a class="navbar-brand text-white" href="index.html">
+                UKK AUKK
+            </a>
+
+            <!--Button Hamburger-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Bagian Menu-->
+             <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link text-white" href="riwayat.html">Riwayat Sertifikasi</a>
+                    <a class="nav-link text-white" href="login.html">Log out</a>
+                </div>
+             </div>
+         </div>
+    </nav>  
+
+    <section id="daftarsertifikasi" class="bg-ya">
+        <h2>Halo Aulia!!</h2>
+        <h6>putrixxyy</h6>
+        
+        <div class="container-fluid d-flex justify-content-center align-items-center py-5">
+            <div id="kursus" class="row">
+                <!--Card 1-->
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="assest2/jwd.png" class="card-img">
+                        <div class="card-body">
+                            <h5 class="card-title">Junior Web Developer</h5>
+                            <p class="card-text">Biaya 2500000 – Durasi 60 JP (10 Pertemuan)</p>
+                            <button class="btn btn-secondary" onclick="daftarKursus(
+                                        'Junior Web Developer',
+                                        '2500000',
+                                        '60 JP (10 Pertemuan)'
+                                    )">Daftar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Card 2-->
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="assest2/jop.png" class="card-img">
+                        <div class="card-body">
+                            <h5 class="card-title">Junior Graphic Designer</h5>
+                            <p class="card-text">Biaya 2000000 – Durasi 60 JP (10 Pertemuan)</p>
+                            <button class="btn btn-secondary" onclick="daftarKursus(
+                                        'Junior Graphic Designer',
+                                        '2000000',
+                                        '60 JP (10 Pertemuan)'
+                                    )">Daftar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3-->
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="assest2/jna.png" class="card-img">
+                        <div class="card-body">
+                            <h6 class="card-title">Junior Network Administrator</h6>
+                            <p class="card-text">Biaya 2500000 – Durasi 60 JP (10 Pertemuan)</p>
+                            <button class="btn btn-secondary" onclick="daftarKursus(
+                                        'Junior Network Administrator',
+                                        '2500000',
+                                        '60 JP (10 Pertemuan)'
+                                    )">Daftar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Card 4-->
+                <div class="col-md-3 my-3">
+                    <div class="card">
+                        <img src="assest2/jgd.png" class="card-img">
+                        <div class="card-body">
+                            <h5 class="card-title">Junior Office Operator</h5>
+                            <p class="card-text">Biaya 2500000 – Durasi 60 JP (10 Pertemuan)</p>
+                            <button class="btn btn-secondary" onclick="daftarKursus(
+                                        'Junior Office Operator',
+                                        '2500000',
+                                        ' 60 JP (10 Pertemuan)'
+                                    )">Daftar</button>
+                        </div>
+                    </div>
+                </div>
+             </div>
+    </section>
+
+    <footer class="bg-primary text-white py-4">
+     <div class="container text-center">
+        <p class="mb-1">&copy; Techno Preneur</p>
+        <p class="mb-0">SMK Dinamika Pembangunan 2 Jakarta</p>
+        </div>
+ </footer>
+ <script src="js/dashboard.js"></script>
+ <script src="js/kursus.js"></script>
+ <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
